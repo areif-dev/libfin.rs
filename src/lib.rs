@@ -1,4 +1,4 @@
-use ndarray::{arr1, s, ArrayBase, Ix1, OwnedRepr, ViewRepr};
+pub use ndarray::{arr1, s, ArrayBase, Ix1, OwnedRepr, ViewRepr};
 
 /// Error type for equity indicators
 #[non_exhaustive]
