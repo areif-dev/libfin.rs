@@ -1,6 +1,3 @@
-pub use ndarray::array;
-pub use ndarray::{arr1, s, ArrayBase, Ix1, OwnedRepr, ViewRepr};
-
 /// Error type for equity indicators
 #[non_exhaustive]
 #[derive(Debug)]
@@ -166,7 +163,6 @@ pub fn calculate_macd(
 #[cfg(test)]
 mod tests {
     use super::*;
-    use ndarray::array;
 
     #[test]
     fn test_calculate_rsi() {
